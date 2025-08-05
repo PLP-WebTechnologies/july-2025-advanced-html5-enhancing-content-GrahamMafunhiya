@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact Creative Graphics Studio for professional design services. Explore our portfolio and fill the form to get started." />
+  <meta name="keywords" content="graphic design, portfolio, contact form, design services" />
+  <meta name="author" content="Creative Graphics Studio" />
+  <title>LaserTech Creative Graphics Studio - Contact & Portfolio</title>
+</head>
+<body>
+
+  <header>
+    <h1>LaserTech Creative Graphics Studio</h1>
+    <p>Your partner in stunning visual design solutions.</p>
+  </header>
+
+  <nav aria-label="Primary navigation">
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Brand Identity & Logo Design</li>
+        <li>Web & Digital Graphics</li>
+        <li>Print Materials (brochures, posters, business cards)</li>
+        <li>Illustrations & Custom Artwork</li>
+      </ul>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio Highlights</h2>
+      
+      <table border="1" summary="Recent projects with client names, project type, and completion year">
+        <caption>Recent Projects</caption>
+        <thead>
+          <tr>
+            <th>Project Name</th>
+            <th>Client</th>
+            <th>Type</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Brand Revamp</td>
+            <td>Sunrise Coffee</td>
+            <td>Logo & Packaging</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>Website Graphics</td>
+            <td>TechGear</td>
+            <td>Digital Design</td>
+            <td>2025</td>
+          </tr>
+          <tr>
+            <td>Event Poster</td>
+            <td>Braai Music Fest</td>
+            <td>Print Design</td>
+            <td>2025</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <figure>
+        <audio controls>
+          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+        </audio>
+        <figcaption>Audio testimonial from a satisfied client.</figcaption>
+      </figure>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="#" method="post" autocomplete="on" novalidate>
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="fullname">Full Name:</label><br />
+          <input type="text" id="fullname" name="fullname" placeholder="Your full name" required minlength="3" /><br /><br />
+
+          <label for="email">Email Address:</label><br />
+          <input type="email" id="email" name="email" placeholder="you@example.com" required /><br /><br />
+
+          <label for="phone">Phone Number:</label><br />
+          <input type="tel" id="phone" name="phone" placeholder="+2634567890" pattern="^\+?\d{7,15}$" title="Enter a valid phone number with 7 to 15 digits, optionally starting with +" /><br /><br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Project Details</legend>
+
+          <label for="service">Select Service:</label><br />
+          <select id="service" name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option value="branding">Brand Identity & Logo</option>
+            <option value="web-design">Web & Digital Design</option>
+            <option value="print">Print Materials</option>
+            <option value="illustration">Illustrations</option>
+          </select><br /><br />
+
+          <label for="budget">Estimated Budget (USD):</label><br />
+          <input type="number" id="budget" name="budget" min="100" max="10000" placeholder="e.g., 500" required /><br /><br />
+
+          <label for="deadline">Project Deadline:</label><br />
+          <input type="date" id="deadline" name="deadline" required /><br /><br />
+
+          <label for="details">Project Description:</label><br />
+          <textarea id="details" name="details" rows="5" cols="40" placeholder="Describe your project..." minlength="10" required></textarea><br /><br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Newsletter Subscription</legend>
+
+          <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+          <label for="subscribe">Subscribe to our newsletter</label><br /><br />
+        </fieldset>
+
+        <button type="submit">Submit Inquiry</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 |LaserTech Creative Graphics Studio| All rights reserved.</p>
+    <p>Contact: <a href="mailto:contact@lasertechcreativegraphics.com">contact@lasertechcreativegraphics.com</a></p>
+  </footer>
+
+</body>
+</html>
